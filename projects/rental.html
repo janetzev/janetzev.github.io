@@ -6,15 +6,11 @@
 
     <title>Wigell Car Rental | Johan Hölbling</title>
 
+    <link rel="stylesheet" href="../style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-        rel="stylesheet"
-    >
-
-    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -26,29 +22,12 @@
         </a>
 
         <ul>
-            <li>
-                <a href="../index.html">Hem</a>
-            </li>
-
-            <li>
-                <a href="../index.html#about">Om mig</a>
-            </li>
-
-            <li>
-                <a href="../index.html#projects">Projekt</a>
-            </li>
-
-            <li>
-                <a href="../index.html#skills">Kompetenser</a>
-            </li>
-
-            <li>
-                <a href="../index.html#experience">Erfarenhet</a>
-            </li>
-
-            <li>
-                <a href="../index.html#contact">Kontakt</a>
-            </li>
+            <li><a href="../index.html">Hem</a></li>
+            <li><a href="../index.html#about">Om mig</a></li>
+            <li><a href="../index.html#projects">Projekt</a></li>
+            <li><a href="../index.html#skills">Kompetenser</a></li>
+            <li><a href="../index.html#experience">Erfarenhet</a></li>
+            <li><a href="../index.html#contact">Kontakt</a></li>
         </ul>
     </nav>
 </header>
@@ -56,268 +35,180 @@
 
 <main>
 
-    <!-- =========================================================
-         HERO
-         ========================================================= -->
+    <!-- Hero -->
+    <section class="hero">
 
-    <section>
+        <div>
+            <span class="badge">Fullstack • Java • Spring Boot</span>
 
-        <div class="hero">
+            <h1>
+                Wigell Car Rental
+            </h1>
 
-            <div>
+            <p>
+                Ett fullstackprojekt för biluthyrning där jag utvecklat
+                funktionalitet för fordon, användare, bokningar och
+                administration. Projektet innehåller även olika gränssnitt
+                beroende på användarroll och ett alternativt EPA-läge.
+            </p>
 
-                <span class="badge">
-                    Fullstack • Webbapplikation
-                </span>
+            <div class="buttons">
+                <a
+                    href="https://github.com/janetz ev"
+                    class="button primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
 
-                <h1>
-                    Wigell Car Rental
-                </h1>
+                <a
+                    href="../index.html#projects"
+                    class="button secondary"
+                >
+                    ← Tillbaka till projekt
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <img
+                src="../assets/rental-cars.jpg"
+                alt="Wigell Car Rental - fordon"
+            >
+
+            <div class="profile-card">
+                <h3>Projekt</h3>
 
                 <p>
-                    Ett komplett bokningssystem för biluthyrning,
-                    utvecklat med fokus på användarvänlighet,
-                    bokningshantering och administrativa funktioner.
+                    <strong>Typ:</strong> Fullstack webbapplikation
                 </p>
 
-                <div class="buttons">
+                <p>
+                    <strong>Område:</strong> Biluthyrning
+                </p>
 
-                    <a
-                        href="https://github.com/janetezv"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="button primary"
-                    >
-                        GitHub
-                    </a>
+                <p>
+                    <strong>Backend:</strong> Java / Spring Boot
+                </p>
 
-                    <a
-                        href="../index.html#projects"
-                        class="button secondary"
-                    >
-                        ← Tillbaka till projekt
-                    </a>
+                <p>
+                    <strong>Frontend:</strong> HTML / CSS / JavaScript
+                </p>
 
-                </div>
-
+                <p>
+                    <strong>Databas:</strong> Relationsdatabas
+                </p>
             </div>
-
-
-            <div class="hero-right">
-
-                <div class="profile-card">
-
-                    <h3>
-                        Projektet i korthet
-                    </h3>
-
-                    <p>
-                        <strong>Typ:</strong>
-                        Fullstack webbapplikation
-                    </p>
-
-                    <p>
-                        <strong>Område:</strong>
-                        Biluthyrning och bokning
-                    </p>
-
-                    <p>
-                        <strong>Fokus:</strong>
-                        Bokningar, användare och administration
-                    </p>
-
-                    <p>
-                        <strong>Backend:</strong>
-                        Java / Spring Boot
-                    </p>
-
-                </div>
-
-            </div>
-
         </div>
 
     </section>
 
 
-    <!-- =========================================================
-         OM PROJEKTET
-         ========================================================= -->
-
+    <!-- About project -->
     <section id="about">
 
-        <h2>
-            Om projektet
-        </h2>
+        <h2>Om projektet</h2>
 
         <p>
-            Wigell Car Rental är en webbaserad applikation för
-            biluthyrning. Systemet låter användare se tillgängliga
-            fordon och skapa bokningar utifrån önskad hyrperiod.
+            Wigell Car Rental är en webbapplikation för hantering av
+            biluthyrning. Applikationen innehåller funktioner för att
+            visa tillgängliga fordon, skapa och hantera bokningar samt
+            administrera både fordon och användare.
         </p>
 
-        <br>
-
         <p>
-            Applikationen innehåller även ett administratörsläge där
-            systemets fordon, användare och bokningar kan hanteras.
-            Projektet är byggt för att efterlikna ett verkligt
-            bokningssystem och innehåller både användar- och
-            administrationsfunktioner.
+            Systemet är uppbyggt med en backend som hanterar
+            affärslogik, användare, roller, fordon och bokningar.
+            Frontenddelen används för att ge användaren ett tydligt
+            gränssnitt för att interagera med systemet.
         </p>
 
     </section>
 
 
-    <!-- =========================================================
-         FUNKTIONER
-         ========================================================= -->
-
+    <!-- Features -->
     <section>
 
-        <h2>
-            Funktioner
-        </h2>
+        <h2>Funktioner</h2>
 
         <div class="project-grid">
 
             <article class="card">
 
+                <img
+                    src="../assets/rental-cars.jpg"
+                    alt="Fordonssida i Wigell Car Rental"
+                >
+
                 <div class="card-content">
 
-                    <h3>
-                        Fordon
-                    </h3>
+                    <h3>Fordon</h3>
 
                     <p>
                         Användaren kan se vilka fordon som finns
-                        tillgängliga för uthyrning och läsa information
-                        om respektive fordon.
+                        tillgängliga och välja ett fordon för bokning.
                     </p>
 
                     <div class="tech">
-
-                        <span>
-                            Fordonslista
-                        </span>
-
-                        <span>
-                            Sortering
-                        </span>
-
-                        <span>
-                            Tillgänglighet
-                        </span>
-
+                        <span>Fordonslista</span>
+                        <span>Sortering</span>
+                        <span>Bokning</span>
                     </div>
 
                 </div>
-
             </article>
 
 
             <article class="card">
 
+                <img
+                    src="../assets/rental-bookings.jpg"
+                    alt="Bokningssida i Wigell Car Rental"
+                >
+
                 <div class="card-content">
 
-                    <h3>
-                        Bokningar
-                    </h3>
+                    <h3>Bokningar</h3>
 
                     <p>
-                        Bokningssystemet hanterar hyrperiod,
-                        fordonsinformation, bokningsstatus och
-                        totalpris.
+                        Bokningar kan visas och hanteras med information
+                        om fordon, datum, status och totalpris.
                     </p>
 
                     <div class="tech">
-
-                        <span>
-                            Datum
-                        </span>
-
-                        <span>
-                            Prisberäkning
-                        </span>
-
-                        <span>
-                            Status
-                        </span>
-
+                        <span>Bokningar</span>
+                        <span>Datum</span>
+                        <span>Status</span>
                     </div>
 
                 </div>
-
             </article>
 
 
             <article class="card">
 
-                <div class="card-content">
-
-                    <h3>
-                        Användare
-                    </h3>
-
-                    <p>
-                        Systemet skiljer mellan vanliga användare och
-                        administratörer med olika behörigheter och
-                        funktioner.
-                    </p>
-
-                    <div class="tech">
-
-                        <span>
-                            Login
-                        </span>
-
-                        <span>
-                            Roller
-                        </span>
-
-                        <span>
-                            Behörighet
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <article class="card">
+                <img
+                    src="../assets/rental-users.jpg"
+                    alt="Användarsida i Wigell Car Rental"
+                >
 
                 <div class="card-content">
 
-                    <h3>
-                        Administration
-                    </h3>
+                    <h3>Användare</h3>
 
                     <p>
-                        Administratören kan hantera fordon, användare
-                        och bokningar genom separata administrativa
-                        vyer.
+                        Administratören kan hantera användare och
+                        deras roller i systemet.
                     </p>
 
                     <div class="tech">
-
-                        <span>
-                            CRUD
-                        </span>
-
-                        <span>
-                            Admin
-                        </span>
-
-                        <span>
-                            Hantering
-                        </span>
-
+                        <span>Användare</span>
+                        <span>Roller</span>
+                        <span>Admin</span>
                     </div>
 
                 </div>
-
             </article>
 
         </div>
@@ -325,164 +216,62 @@
     </section>
 
 
-    <!-- =========================================================
-         BILDER
-         
-         De gamla rental-1.png, rental-2.png och rental-cover.png
-         används INTE längre.
-
-         Lägg in dina 8 nya bilder här när filnamnen är bestämda.
-         ========================================================= -->
-
+    <!-- Admin -->
     <section>
 
-        <h2>
-            Applikationen
-        </h2>
+        <h2>Administration</h2>
 
         <div class="project-grid">
 
-            <!-- Bild 1 -->
             <article class="card">
+
+                <img
+                    src="../assets/rental-admin-cars.jpg"
+                    alt="Administration av fordon"
+                >
 
                 <div class="card-content">
 
-                    <h3>
-                        Användargränssnitt
-                    </h3>
+                    <h3>Administrera fordon</h3>
 
                     <p>
-                        Skärmbild från applikationen.
+                        Administratören kan lägga till, redigera och
+                        ta bort fordon samt ändra information och pris.
                     </p>
 
-                </div>
+                    <div class="tech">
+                        <span>CRUD</span>
+                        <span>Admin</span>
+                        <span>Fordon</span>
+                    </div>
 
+                </div>
             </article>
 
 
-            <!-- Bild 2 -->
             <article class="card">
+
+                <img
+                    src="../assets/rental-epa-admin-cars.jpg"
+                    alt="EPA administration av fordon"
+                >
 
                 <div class="card-content">
 
-                    <h3>
-                        Fordon
-                    </h3>
+                    <h3>EPA-läge</h3>
 
                     <p>
-                        Översikt över tillgängliga fordon.
+                        Projektet innehåller även ett alternativt EPA-läge
+                        med ett eget visuellt tema och särskilda fordon.
                     </p>
 
-                </div>
-
-            </article>
-
-
-            <!-- Bild 3 -->
-            <article class="card">
-
-                <div class="card-content">
-
-                    <h3>
-                        Bokningar
-                    </h3>
-
-                    <p>
-                        Bokningshantering i applikationen.
-                    </p>
+                    <div class="tech">
+                        <span>EPA Mode</span>
+                        <span>Admin</span>
+                        <span>UI</span>
+                    </div>
 
                 </div>
-
-            </article>
-
-
-            <!-- Bild 4 -->
-            <article class="card">
-
-                <div class="card-content">
-
-                    <h3>
-                        Användare
-                    </h3>
-
-                    <p>
-                        Hantering av användare och roller.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <!-- Bild 5 -->
-            <article class="card">
-
-                <div class="card-content">
-
-                    <h3>
-                        Administration
-                    </h3>
-
-                    <p>
-                        Administrativ vy för systemet.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <!-- Bild 6 -->
-            <article class="card">
-
-                <div class="card-content">
-
-                    <h3>
-                        Fordonshantering
-                    </h3>
-
-                    <p>
-                        Administrering av fordon och priser.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <!-- Bild 7 -->
-            <article class="card">
-
-                <div class="card-content">
-
-                    <h3>
-                        Bokningsöversikt
-                    </h3>
-
-                    <p>
-                        Översikt över aktuella bokningar.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <!-- Bild 8 -->
-            <article class="card">
-
-                <div class="card-content">
-
-                    <h3>
-                        EPA Mode
-                    </h3>
-
-                    <p>
-                        Alternativt visuellt läge för applikationen.
-                    </p>
-
-                </div>
-
             </article>
 
         </div>
@@ -490,304 +279,191 @@
     </section>
 
 
-    <!-- =========================================================
-         ADMINISTRATION
-         ========================================================= -->
-
+    <!-- EPA -->
     <section>
 
-        <h2>
-            Administrationssystem
-        </h2>
+        <h2>EPA-läge</h2>
 
-        <div class="container">
+        <div class="project-grid">
 
-            <p>
-                Administrationsdelen ger möjlighet att hantera
-                systemets centrala data. Administratören kan skapa,
-                uppdatera och ta bort fordon samt administrera
-                användare och bokningar.
-            </p>
+            <article class="card">
 
-            <br>
+                <img
+                    src="../assets/rental-epa-cars.jpg"
+                    alt="EPA-fordon i Wigell Car Rental"
+                >
 
-            <div class="project-grid">
+                <div class="card-content">
 
-                <article class="card">
+                    <h3>EPA-fordon</h3>
 
-                    <div class="card-content">
+                    <p>
+                        EPA-läget presenterar en separat uppsättning
+                        fordon och ett alternativt gränssnitt.
+                    </p>
 
-                        <h3>
-                            Fordonshantering
-                        </h3>
-
-                        <p>
-                            Administratören kan ändra fordonsinformation,
-                            priser och bokningsstatus.
-                        </p>
-
-                    </div>
-
-                </article>
+                </div>
+            </article>
 
 
-                <article class="card">
+            <article class="card">
 
-                    <div class="card-content">
+                <img
+                    src="../assets/rental-epa-bookings.jpg"
+                    alt="EPA-bokningar"
+                >
 
-                        <h3>
-                            Användarhantering
-                        </h3>
+                <div class="card-content">
 
-                        <p>
-                            Användare kan administreras och olika
-                            användarroller kan hanteras från adminvyn.
-                        </p>
+                    <h3>EPA-bokningar</h3>
 
-                    </div>
+                    <p>
+                        Bokningar visas även i EPA-läget med ett
+                        anpassat visuellt tema.
+                    </p>
 
-                </article>
+                </div>
+            </article>
 
 
-                <article class="card">
+            <article class="card">
 
-                    <div class="card-content">
+                <img
+                    src="../assets/rental-epa-users.jpg"
+                    alt="EPA-användare"
+                >
 
-                        <h3>
-                            Bokningshantering
-                        </h3>
+                <div class="card-content">
 
-                        <p>
-                            Administratören kan se systemets bokningar
-                            och hantera deras status.
-                        </p>
+                    <h3>EPA-användare</h3>
 
-                    </div>
+                    <p>
+                        Användarhanteringen finns även tillgänglig
+                        i EPA-läget.
+                    </p>
 
-                </article>
-
-            </div>
+                </div>
+            </article>
 
         </div>
 
     </section>
 
 
-    <!-- =========================================================
-         EPA MODE
-         ========================================================= -->
-
-    <section>
-
-        <h2>
-            EPA Mode
-        </h2>
-
-        <div class="container">
-
-            <p>
-                Applikationen innehåller ett särskilt EPA Mode som
-                förändrar det visuella temat och ger systemet ett
-                alternativt utseende.
-            </p>
-
-            <br>
-
-            <p>
-                Funktionen visar hur samma applikation kan använda
-                olika visuella teman samtidigt som den bakomliggande
-                funktionaliteten finns kvar.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================================================
-         TEKNIK
-         ========================================================= -->
-
+    <!-- Technologies -->
     <section id="skills">
 
-        <h2>
-            Teknik
-        </h2>
+        <h2>Tekniker</h2>
 
         <ul>
-
-            <li>
-                Java
-            </li>
-
-            <li>
-                Spring Boot
-            </li>
-
-            <li>
-                Spring Security
-            </li>
-
-            <li>
-                Spring Data JPA
-            </li>
-
-            <li>
-                REST API
-            </li>
-
-            <li>
-                HTML
-            </li>
-
-            <li>
-                CSS
-            </li>
-
-            <li>
-                JavaScript
-            </li>
-
-            <li>
-                SQL
-            </li>
-
-            <li>
-                Maven
-            </li>
-
-            <li>
-                Git
-            </li>
-
-            <li>
-                GitHub
-            </li>
-
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>Spring Security</li>
+            <li>REST API</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>Git</li>
+            <li>GitHub</li>
         </ul>
 
     </section>
 
 
-    <!-- =========================================================
-         VAD JAG LÄRDE MIG
-         ========================================================= -->
+    <!-- Gallery -->
+    <section>
 
-    <section id="experience">
+        <h2>Projektbilder</h2>
 
-        <h2>
-            Vad jag lärde mig
-        </h2>
+        <div class="project-grid">
 
-        <ul>
+            <article class="card">
+                <img
+                    src="../assets/rental-cars.jpg"
+                    alt="Wigell Car Rental - fordon"
+                >
+            </article>
 
-            <li>
+            <article class="card">
+                <img
+                    src="../assets/rental-bookings.jpg"
+                    alt="Wigell Car Rental - bokningar"
+                >
+            </article>
 
-                <strong>
-                    Backendutveckling
-                </strong>
+            <article class="card">
+                <img
+                    src="../assets/rental-users.jpg"
+                    alt="Wigell Car Rental - användare"
+                >
+            </article>
 
-                <br>
+            <article class="card">
+                <img
+                    src="../assets/rental-admin-cars.jpg"
+                    alt="Wigell Car Rental - admin fordon"
+                >
+            </article>
 
-                Att strukturera en större applikation med Spring Boot,
-                controllers, services och repositories.
+            <article class="card">
+                <img
+                    src="../assets/rental-epa-cars.jpg"
+                    alt="Wigell Car Rental - EPA fordon"
+                >
+            </article>
 
-            </li>
+            <article class="card">
+                <img
+                    src="../assets/rental-epa-bookings.jpg"
+                    alt="Wigell Car Rental - EPA bokningar"
+                >
+            </article>
 
+            <article class="card">
+                <img
+                    src="../assets/rental-epa-users.jpg"
+                    alt="Wigell Car Rental - EPA användare"
+                >
+            </article>
 
-            <li>
+            <article class="card">
+                <img
+                    src="../assets/rental-epa-admin-cars.jpg"
+                    alt="Wigell Car Rental - EPA admin"
+                >
+            </article>
 
-                <strong>
-                    Databashantering
-                </strong>
-
-                <br>
-
-                Att arbeta med persistens och relationer mellan
-                användare, fordon och bokningar.
-
-            </li>
-
-
-            <li>
-
-                <strong>
-                    Autentisering och behörighet
-                </strong>
-
-                <br>
-
-                Att skilja mellan olika användarroller och skydda
-                administrativa funktioner.
-
-            </li>
-
-
-            <li>
-
-                <strong>
-                    Frontend och backend
-                </strong>
-
-                <br>
-
-                Att koppla ihop användargränssnittet med backendlogik
-                och skapa ett sammanhängande system.
-
-            </li>
-
-
-            <li>
-
-                <strong>
-                    CRUD och systemdesign
-                </strong>
-
-                <br>
-
-                Att implementera funktioner för att skapa, läsa,
-                uppdatera och ta bort data.
-
-            </li>
-
-        </ul>
+        </div>
 
     </section>
 
 
-    <!-- =========================================================
-         PROJEKTLÄNKAR
-         ========================================================= -->
-
+    <!-- Links -->
     <section id="contact">
 
-        <h2>
-            Projektlänkar
-        </h2>
+        <h2>Projektet</h2>
 
         <p>
-            Se projektet och övriga delar av min portfolio på GitHub.
+            Se källkoden och projektets utveckling på GitHub.
         </p>
 
-        <div
-            class="buttons"
-            style="justify-content:center;"
-        >
+        <div class="buttons" style="justify-content:center;">
 
             <a
                 href="https://github.com/janetezv"
+                class="button primary"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="button primary"
             >
                 GitHub
             </a>
 
             <a
-                href="../index.html"
+                href="../index.html#projects"
                 class="button secondary"
             >
-                Till portfolio
+                Tillbaka till portfolio
             </a>
 
         </div>
@@ -798,11 +474,9 @@
 
 
 <footer>
-
     <p>
         © 2026 Johan Hölbling
     </p>
-
 </footer>
 
 </body>
