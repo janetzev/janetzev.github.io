@@ -1,1 +1,551 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Wigell Car Rental | Johan Hölbling</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Portfolio CSS -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<!-- ======================================================================
+     HEADER
+     ====================================================================== -->
+
+<header>
+    <nav>
+
+        <a href="../index.html" class="logo">
+            Johan Hölbling
+        </a>
+
+        <ul>
+            <li>
+                <a href="../index.html">Hem</a>
+            </li>
+
+            <li>
+                <a href="../index.html#about">Om mig</a>
+            </li>
+
+            <li>
+                <a href="../index.html#projects">Projekt</a>
+            </li>
+
+            <li>
+                <a href="../index.html#skills">Kompetenser</a>
+            </li>
+
+            <li>
+                <a href="../index.html#experience">Erfarenhet</a>
+            </li>
+
+            <li>
+                <a href="../index.html#contact">Kontakt</a>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+<main>
+
+<!-- ======================================================================
+     PROJECT HERO
+     ====================================================================== -->
+
+<section class="project-hero">
+
+    <span class="badge">
+        Fullstack Web Application
+    </span>
+
+    <h1>
+        Wigell Car Rental
+    </h1>
+
+    <p>
+        Ett fullstack-projekt för biluthyrning där användare kan se
+        tillgängliga fordon, skapa bokningar och hantera sina bokningar.
+        Administratörer kan dessutom hantera fordon, användare och
+        bokningar genom ett separat administrationsgränssnitt.
+    </p>
+
+    <div class="buttons">
+
+        <a
+            href="https://github.com/"
+            class="button primary"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            GitHub
+        </a>
+
+        <a
+            href="../index.html#projects"
+            class="button secondary"
+        >
+            ← Tillbaka till projekt
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ======================================================================
+     PROJECT COVER
+     ====================================================================== -->
+
+<div class="project-cover">
+
+    <img
+        src="../images/rental-cover.png"
+        alt="Wigell Car Rental - översikt av applikationen"
+    >
+
+</div>
+
+
+<!-- ======================================================================
+     ABOUT THE PROJECT
+     ====================================================================== -->
+
+<section class="project-section">
+
+    <h2>
+        Om projektet
+    </h2>
+
+    <p>
+        Wigell Car Rental är en webbaserad biluthyrningsapplikation.
+        Projektet är byggt för att hantera hela uthyrningsflödet från
+        att en användare väljer ett fordon till att bokningen skapas
+        och kan administreras.
+    </p>
+
+    <p>
+        Applikationen innehåller både ett användargränssnitt och ett
+        administrativt gränssnitt. Fokus ligger på att skapa ett tydligt
+        bokningsflöde samtidigt som administratören får kontroll över
+        systemets data.
+    </p>
+
+</section>
+
+
+<!-- ======================================================================
+     FEATURES
+     ====================================================================== -->
+
+<section class="project-section">
+
+    <h2>
+        Funktioner
+    </h2>
+
+</section>
+
+<div class="project-features">
+
+    <article class="project-feature">
+
+        <h3>
+            🚗 Fordon
+        </h3>
+
+        <p>
+            Användaren kan se vilka fordon som finns tillgängliga,
+            läsa information om bilen och välja ett fordon att boka.
+        </p>
+
+    </article>
+
+
+    <article class="project-feature">
+
+        <h3>
+            📅 Bokningar
+        </h3>
+
+        <p>
+            Användare kan skapa bokningar genom att välja start- och
+            slutdatum. Systemet beräknar därefter det totala priset.
+        </p>
+
+    </article>
+
+
+    <article class="project-feature">
+
+        <h3>
+            👤 Användare
+        </h3>
+
+        <p>
+            Systemet hanterar användarkonton och roller med separata
+            rättigheter för vanliga användare och administratörer.
+        </p>
+
+    </article>
+
+
+    <article class="project-feature">
+
+        <h3>
+            ⚙️ Administration
+        </h3>
+
+        <p>
+            Administratören kan hantera fordon, användare och
+            bokningar från administrationsgränssnittet.
+        </p>
+
+    </article>
+
+</div>
+
+
+<!-- ======================================================================
+     VEHICLES
+     ====================================================================== -->
+
+<section class="project-section">
+
+    <h2>
+        Fordon
+    </h2>
+
+    <p>
+        Fordonssidan presenterar de bilar som finns i systemet.
+        Varje fordon visas som ett kort med bild, modell, typ,
+        egenskaper och pris per dag.
+    </p>
+
+    <img
+        class="project-image"
+        src="../images/rental-epa-cars.png"
+        alt="Wigell Car Rental - fordonssida"
+    >
+
+</section>
+
+
+<!-- ======================================================================
+     BOOKINGS
+     ====================================================================== -->
+
+<section class="project-section">
+
+    <h2>
+        Bokningar
+    </h2>
+
+    <p>
+        Bokningsdelen visar användarens aktuella och avslutade
+        bokningar. För varje bokning visas bland annat fordon,
+        datum, status och totalpris.
+    </p>
+
+    <img
+        class="project-image"
+        src="../images/rental-bookings.png"
+        alt="Wigell Car Rental - bokningsöversikt"
+    >
+
+</section>
+
+
+<!-- ======================================================================
+     ADMIN
+     ====================================================================== -->
+
+<section class="project-section">
+
+    <h2>
+        Administration
+    </h2>
+
+    <p>
+        Administrationsdelen ger möjlighet att hantera systemets
+        fordon. Administratören kan bland annat ändra information,
+        pris och bokningsstatus.
+    </p>
+
+    <img
+        class="project-image"
+        src="../images/rental-admin-cars.png"
+        alt="Wigell Car Rental - administration av fordon"
+    >
+
+</section>
+
+
+<!-- ======================================================================
+     USERS
+     ====================================================================== -->
+
+<section class="project-section">
+
+    <h2>
+        Användarhantering
+    </h2>
+
+    <p>
+        Administratören kan se registrerade användare och hantera
+        deras information och roller.
+    </p>
+
+    <div class="project-gallery">
+
+        <img
+            src="../images/rental-users.png"
+            alt="Wigell Car Rental - användarhantering"
+        >
+
+        <img
+            src="../images/rental-epa-users.png"
+            alt="Wigell Car Rental - användarhantering i EPA Mode"
+        >
+
+    </div>
+
+</section>
+
+
+<!-- ======================================================================
+     EPA MODE
+     ====================================================================== -->
+
+<section class="epa-project">
+
+    <div class="project-section">
+
+        <h2>
+            EPA MODE
+        </h2>
+
+        <p>
+            Projektet innehåller även ett alternativt visuellt tema,
+            EPA MODE. När läget aktiveras ändras applikationens färger,
+            typografi och visuella uttryck.
+        </p>
+
+        <p>
+            EPA MODE är byggt som en del av applikationens befintliga
+            gränssnitt och kan växlas direkt från navigeringen.
+        </p>
+
+        <img
+            class="project-image"
+            src="../images/rental-epa-admin.png"
+            alt="Wigell Car Rental - EPA Mode administration"
+        >
+
+    </div>
+
+</section>
+
+
+<!-- ======================================================================
+     MORE SCREENSHOTS
+     ====================================================================== -->
+
+<section class="project-section">
+
+    <h2>
+        Fler vyer
+    </h2>
+
+    <div class="project-gallery">
+
+        <img
+            src="../images/rental-cover.png"
+            alt="Wigell Car Rental - huvudsida"
+        >
+
+        <img
+            src="../images/rental-epa-cars.png"
+            alt="Wigell Car Rental - EPA Mode fordon"
+        >
+
+        <img
+            src="../images/rental-admin-cars.png"
+            alt="Wigell Car Rental - admin fordon"
+        >
+
+        <img
+            src="../images/rental-bookings.png"
+            alt="Wigell Car Rental - alla bokningar"
+        >
+
+    </div>
+
+</section>
+
+
+<!-- ======================================================================
+     TECHNOLOGY
+     ====================================================================== -->
+
+<section class="project-section">
+
+    <h2>
+        Teknik
+    </h2>
+
+    <p>
+        Projektet använder en kombination av backend-teknik,
+        databas och frontend för att skapa en komplett webbaserad
+        applikation.
+    </p>
+
+    <div class="tech-list">
+
+        <span>C#</span>
+        <span>.NET</span>
+        <span>ASP.NET</span>
+        <span>Entity Framework</span>
+        <span>SQL</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Git</span>
+        <span>GitHub</span>
+
+    </div>
+
+</section>
+
+
+<!-- ======================================================================
+     LESSONS LEARNED
+     ====================================================================== -->
+
+<section class="project-section">
+
+    <h2>
+        Lärdomar
+    </h2>
+
+    <div class="lessons">
+
+        <article class="lesson">
+
+            <h3>
+                Fullstack-utveckling
+            </h3>
+
+            <p>
+                Projektet gav erfarenhet av att bygga ett komplett
+                system där frontend, backend och databas samverkar.
+            </p>
+
+        </article>
+
+
+        <article class="lesson">
+
+            <h3>
+                Databashantering
+            </h3>
+
+            <p>
+                Arbetet med fordon, användare och bokningar gav
+                praktisk erfarenhet av att modellera och hantera
+                relaterad data.
+            </p>
+
+        </article>
+
+
+        <article class="lesson">
+
+            <h3>
+                Roller och behörigheter
+            </h3>
+
+            <p>
+                Projektet innehåller olika användarroller och
+                separata funktioner för användare och administratörer.
+            </p>
+
+        </article>
+
+
+        <article class="lesson">
+
+            <h3>
+                UI och användarupplevelse
+            </h3>
+
+            <p>
+                Jag arbetade även med responsiv design och ett
+                alternativt visuellt tema genom EPA MODE.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ======================================================================
+     PROJECT LINKS
+     ====================================================================== -->
+
+<section class="project-section">
+
+    <h2>
+        Projektet
+    </h2>
+
+    <div class="project-links">
+
+        <a
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            GitHub
+        </a>
+
+        <a href="../index.html#projects">
+            ← Tillbaka till portfolio
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ======================================================================
+     FOOTER
+     ====================================================================== -->
+
+<footer>
+
+    <p>
+        © 2026 Johan Hölbling
+    </p>
+
+</footer>
+
+</body>
+</html>
