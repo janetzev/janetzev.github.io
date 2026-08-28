@@ -8,7 +8,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="../style.css">
 </head>
@@ -17,15 +21,34 @@
 
 <header>
     <nav>
-        <a href="../index.html" class="logo">Johan Hölbling</a>
+        <a href="../index.html" class="logo">
+            Johan Hölbling
+        </a>
 
         <ul>
-            <li><a href="../index.html">Hem</a></li>
-            <li><a href="../index.html#about">Om mig</a></li>
-            <li><a href="../index.html#projects">Projekt</a></li>
-            <li><a href="../index.html#skills">Kompetenser</a></li>
-            <li><a href="../index.html#experience">Erfarenhet</a></li>
-            <li><a href="../index.html#contact">Kontakt</a></li>
+            <li>
+                <a href="../index.html">Hem</a>
+            </li>
+
+            <li>
+                <a href="../index.html#about">Om mig</a>
+            </li>
+
+            <li>
+                <a href="../index.html#projects">Projekt</a>
+            </li>
+
+            <li>
+                <a href="../index.html#skills">Kompetenser</a>
+            </li>
+
+            <li>
+                <a href="../index.html#experience">Erfarenhet</a>
+            </li>
+
+            <li>
+                <a href="../index.html#contact">Kontakt</a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -33,26 +56,36 @@
 
 <main>
 
-    <!-- HERO -->
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
+
     <section>
+
         <div class="hero">
 
             <div>
-                <span class="badge">Webbapplikation • Fullstack</span>
 
-                <h1>Wigell Car Rental</h1>
+                <span class="badge">
+                    Fullstack • Webbapplikation
+                </span>
+
+                <h1>
+                    Wigell Car Rental
+                </h1>
 
                 <p>
-                    Ett komplett bokningssystem för biluthyrning, utvecklat med
-                    fokus på användarvänlighet, administration och tydlig
-                    separation mellan kund- och adminfunktioner.
+                    Ett komplett bokningssystem för biluthyrning,
+                    utvecklat med fokus på användarvänlighet,
+                    bokningshantering och administrativa funktioner.
                 </p>
 
                 <div class="buttons">
+
                     <a
                         href="https://github.com/janetezv"
                         target="_blank"
-                        rel="noopener"
+                        rel="noopener noreferrer"
                         class="button primary"
                     >
                         GitHub
@@ -64,127 +97,227 @@
                     >
                         ← Tillbaka till projekt
                     </a>
+
                 </div>
+
             </div>
 
+
             <div class="hero-right">
-                <img
-                    src="../assets/rental-cover.png"
-                    alt="Wigell Car Rental"
-                >
 
                 <div class="profile-card">
-                    <h3>Projektet i korthet</h3>
 
-                    <p><strong>Typ:</strong> Fullstack webbapplikation</p>
-                    <p><strong>Område:</strong> Biluthyrning och bokning</p>
-                    <p><strong>Fokus:</strong> CRUD, autentisering och administration</p>
+                    <h3>
+                        Projektet i korthet
+                    </h3>
+
+                    <p>
+                        <strong>Typ:</strong>
+                        Fullstack webbapplikation
+                    </p>
+
+                    <p>
+                        <strong>Område:</strong>
+                        Biluthyrning och bokning
+                    </p>
+
+                    <p>
+                        <strong>Fokus:</strong>
+                        Bokningar, användare och administration
+                    </p>
+
+                    <p>
+                        <strong>Backend:</strong>
+                        Java / Spring Boot
+                    </p>
+
                 </div>
+
             </div>
 
         </div>
+
     </section>
 
 
-    <!-- ABOUT PROJECT -->
+    <!-- =========================================================
+         OM PROJEKTET
+         ========================================================= -->
+
     <section id="about">
 
-        <h2>Om projektet</h2>
+        <h2>
+            Om projektet
+        </h2>
 
         <p>
-            Wigell Car Rental är en webbaserad biluthyrningsapplikation där
-            användare kan se tillgängliga fordon och skapa bokningar.
-            Applikationen innehåller även administrativa funktioner för att
-            hantera fordon, användare och bokningar.
+            Wigell Car Rental är en webbaserad applikation för
+            biluthyrning. Systemet låter användare se tillgängliga
+            fordon och skapa bokningar utifrån önskad hyrperiod.
         </p>
 
         <br>
 
         <p>
+            Applikationen innehåller även ett administratörsläge där
+            systemets fordon, användare och bokningar kan hanteras.
             Projektet är byggt för att efterlikna ett verkligt
-            bokningssystem och innehåller både ett vanligt användarläge och
-            ett särskilt administratörsläge.
+            bokningssystem och innehåller både användar- och
+            administrationsfunktioner.
         </p>
 
     </section>
 
 
-    <!-- FEATURES -->
+    <!-- =========================================================
+         FUNKTIONER
+         ========================================================= -->
+
     <section>
 
-        <h2>Funktioner</h2>
+        <h2>
+            Funktioner
+        </h2>
 
         <div class="project-grid">
 
             <article class="card">
+
                 <div class="card-content">
-                    <h3>🚗 Fordon</h3>
+
+                    <h3>
+                        Fordon
+                    </h3>
 
                     <p>
-                        Användaren kan se vilka fordon som finns tillgängliga,
-                        läsa information om dem och välja ett fordon att boka.
+                        Användaren kan se vilka fordon som finns
+                        tillgängliga för uthyrning och läsa information
+                        om respektive fordon.
                     </p>
 
                     <div class="tech">
-                        <span>Fordonslista</span>
-                        <span>Sortering</span>
-                        <span>Bokning</span>
+
+                        <span>
+                            Fordonslista
+                        </span>
+
+                        <span>
+                            Sortering
+                        </span>
+
+                        <span>
+                            Tillgänglighet
+                        </span>
+
                     </div>
+
                 </div>
+
             </article>
 
 
             <article class="card">
+
                 <div class="card-content">
-                    <h3>📅 Bokningar</h3>
+
+                    <h3>
+                        Bokningar
+                    </h3>
 
                     <p>
-                        Bokningssystemet hanterar datum, hyrperiod,
-                        fordonsinformation och totalpris.
+                        Bokningssystemet hanterar hyrperiod,
+                        fordonsinformation, bokningsstatus och
+                        totalpris.
                     </p>
 
                     <div class="tech">
-                        <span>Datum</span>
-                        <span>Prisberäkning</span>
-                        <span>Status</span>
+
+                        <span>
+                            Datum
+                        </span>
+
+                        <span>
+                            Prisberäkning
+                        </span>
+
+                        <span>
+                            Status
+                        </span>
+
                     </div>
+
                 </div>
+
             </article>
 
 
             <article class="card">
+
                 <div class="card-content">
-                    <h3>👤 Användare</h3>
+
+                    <h3>
+                        Användare
+                    </h3>
 
                     <p>
                         Systemet skiljer mellan vanliga användare och
-                        administratörer med olika behörigheter och vyer.
+                        administratörer med olika behörigheter och
+                        funktioner.
                     </p>
 
                     <div class="tech">
-                        <span>Login</span>
-                        <span>Roller</span>
-                        <span>Behörighet</span>
+
+                        <span>
+                            Login
+                        </span>
+
+                        <span>
+                            Roller
+                        </span>
+
+                        <span>
+                            Behörighet
+                        </span>
+
                     </div>
+
                 </div>
+
             </article>
 
 
             <article class="card">
+
                 <div class="card-content">
-                    <h3>⚙️ Administration</h3>
+
+                    <h3>
+                        Administration
+                    </h3>
 
                     <p>
-                        Administratören kan hantera fordon, användare och
-                        samtliga bokningar från administrativa vyer.
+                        Administratören kan hantera fordon, användare
+                        och bokningar genom separata administrativa
+                        vyer.
                     </p>
 
                     <div class="tech">
-                        <span>CRUD</span>
-                        <span>Admin</span>
-                        <span>Hantering</span>
+
+                        <span>
+                            CRUD
+                        </span>
+
+                        <span>
+                            Admin
+                        </span>
+
+                        <span>
+                            Hantering
+                        </span>
+
                     </div>
+
                 </div>
+
             </article>
 
         </div>
@@ -192,43 +325,164 @@
     </section>
 
 
-    <!-- SCREENSHOTS -->
+    <!-- =========================================================
+         BILDER
+         
+         De gamla rental-1.png, rental-2.png och rental-cover.png
+         används INTE längre.
+
+         Lägg in dina 8 nya bilder här när filnamnen är bestämda.
+         ========================================================= -->
+
     <section>
 
-        <h2>Applikationen</h2>
+        <h2>
+            Applikationen
+        </h2>
 
         <div class="project-grid">
 
+            <!-- Bild 1 -->
             <article class="card">
-                <img
-                    src="../assets/rental-1.png"
-                    alt="Wigell Car Rental – fordon"
-                >
 
                 <div class="card-content">
-                    <h3>Fordon</h3>
+
+                    <h3>
+                        Användargränssnitt
+                    </h3>
 
                     <p>
-                        Översikt över de fordon som finns tillgängliga för
-                        uthyrning.
+                        Skärmbild från applikationen.
                     </p>
+
                 </div>
+
             </article>
 
 
+            <!-- Bild 2 -->
             <article class="card">
-                <img
-                    src="../assets/rental-2.png"
-                    alt="Wigell Car Rental – bokningar"
-                >
 
                 <div class="card-content">
-                    <h3>Bokningar</h3>
+
+                    <h3>
+                        Fordon
+                    </h3>
 
                     <p>
-                        Översikt över användarnas bokningar och deras status.
+                        Översikt över tillgängliga fordon.
                     </p>
+
                 </div>
+
+            </article>
+
+
+            <!-- Bild 3 -->
+            <article class="card">
+
+                <div class="card-content">
+
+                    <h3>
+                        Bokningar
+                    </h3>
+
+                    <p>
+                        Bokningshantering i applikationen.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- Bild 4 -->
+            <article class="card">
+
+                <div class="card-content">
+
+                    <h3>
+                        Användare
+                    </h3>
+
+                    <p>
+                        Hantering av användare och roller.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- Bild 5 -->
+            <article class="card">
+
+                <div class="card-content">
+
+                    <h3>
+                        Administration
+                    </h3>
+
+                    <p>
+                        Administrativ vy för systemet.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- Bild 6 -->
+            <article class="card">
+
+                <div class="card-content">
+
+                    <h3>
+                        Fordonshantering
+                    </h3>
+
+                    <p>
+                        Administrering av fordon och priser.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- Bild 7 -->
+            <article class="card">
+
+                <div class="card-content">
+
+                    <h3>
+                        Bokningsöversikt
+                    </h3>
+
+                    <p>
+                        Översikt över aktuella bokningar.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- Bild 8 -->
+            <article class="card">
+
+                <div class="card-content">
+
+                    <h3>
+                        EPA Mode
+                    </h3>
+
+                    <p>
+                        Alternativt visuellt läge för applikationen.
+                    </p>
+
+                </div>
+
             </article>
 
         </div>
@@ -236,18 +490,23 @@
     </section>
 
 
-    <!-- ADMIN -->
+    <!-- =========================================================
+         ADMINISTRATION
+         ========================================================= -->
+
     <section>
 
-        <h2>Administrationssystem</h2>
+        <h2>
+            Administrationssystem
+        </h2>
 
         <div class="container">
 
             <p>
-                Administrationsdelen ger möjlighet att hantera systemets
-                centrala data. Administratören kan bland annat skapa,
-                uppdatera och ta bort fordon samt hantera användare och
-                bokningar.
+                Administrationsdelen ger möjlighet att hantera
+                systemets centrala data. Administratören kan skapa,
+                uppdatera och ta bort fordon samt administrera
+                användare och bokningar.
             </p>
 
             <br>
@@ -255,38 +514,56 @@
             <div class="project-grid">
 
                 <article class="card">
+
                     <div class="card-content">
-                        <h3>Fordonshantering</h3>
+
+                        <h3>
+                            Fordonshantering
+                        </h3>
 
                         <p>
                             Administratören kan ändra fordonsinformation,
                             priser och bokningsstatus.
                         </p>
+
                     </div>
+
                 </article>
 
 
                 <article class="card">
+
                     <div class="card-content">
-                        <h3>Användarhantering</h3>
+
+                        <h3>
+                            Användarhantering
+                        </h3>
 
                         <p>
-                            Användare kan administreras och deras roller
-                            hanteras från adminvyn.
+                            Användare kan administreras och olika
+                            användarroller kan hanteras från adminvyn.
                         </p>
+
                     </div>
+
                 </article>
 
 
                 <article class="card">
+
                     <div class="card-content">
-                        <h3>Bokningshantering</h3>
+
+                        <h3>
+                            Bokningshantering
+                        </h3>
 
                         <p>
-                            Administratören kan se systemets bokningar och
-                            hantera deras status.
+                            Administratören kan se systemets bokningar
+                            och hantera deras status.
                         </p>
+
                     </div>
+
                 </article>
 
             </div>
@@ -296,24 +573,29 @@
     </section>
 
 
-    <!-- EPA MODE -->
+    <!-- =========================================================
+         EPA MODE
+         ========================================================= -->
+
     <section>
 
-        <h2>EPA Mode</h2>
+        <h2>
+            EPA Mode
+        </h2>
 
         <div class="container">
 
             <p>
-                Ett särskilt EPA Mode är implementerat som förändrar
-                applikationens visuella uttryck och visar ett alternativt
-                tema för systemet.
+                Applikationen innehåller ett särskilt EPA Mode som
+                förändrar det visuella temat och ger systemet ett
+                alternativt utseende.
             </p>
 
             <br>
 
             <p>
-                Funktionen demonstrerar hur samma applikation kan presentera
-                olika visuella lägen samtidigt som den bakomliggande
+                Funktionen visar hur samma applikation kan använda
+                olika visuella teman samtidigt som den bakomliggande
                 funktionaliteten finns kvar.
             </p>
 
@@ -322,64 +604,150 @@
     </section>
 
 
-    <!-- TECHNOLOGY -->
+    <!-- =========================================================
+         TEKNIK
+         ========================================================= -->
+
     <section id="skills">
 
-        <h2>Teknik</h2>
+        <h2>
+            Teknik
+        </h2>
 
         <ul>
-            <li>Java</li>
-            <li>Spring Boot</li>
-            <li>Spring Security</li>
-            <li>Spring Data JPA</li>
-            <li>REST API</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>SQL</li>
-            <li>Maven</li>
-            <li>Git</li>
-            <li>GitHub</li>
+
+            <li>
+                Java
+            </li>
+
+            <li>
+                Spring Boot
+            </li>
+
+            <li>
+                Spring Security
+            </li>
+
+            <li>
+                Spring Data JPA
+            </li>
+
+            <li>
+                REST API
+            </li>
+
+            <li>
+                HTML
+            </li>
+
+            <li>
+                CSS
+            </li>
+
+            <li>
+                JavaScript
+            </li>
+
+            <li>
+                SQL
+            </li>
+
+            <li>
+                Maven
+            </li>
+
+            <li>
+                Git
+            </li>
+
+            <li>
+                GitHub
+            </li>
+
         </ul>
 
     </section>
 
 
-    <!-- LEARNINGS -->
+    <!-- =========================================================
+         VAD JAG LÄRDE MIG
+         ========================================================= -->
+
     <section id="experience">
 
-        <h2>Vad jag lärde mig</h2>
+        <h2>
+            Vad jag lärde mig
+        </h2>
 
         <ul>
 
             <li>
-                <strong>Backendutveckling</strong><br>
+
+                <strong>
+                    Backendutveckling
+                </strong>
+
+                <br>
+
                 Att strukturera en större applikation med Spring Boot,
                 controllers, services och repositories.
+
             </li>
 
-            <li>
-                <strong>Databashantering</strong><br>
-                Att arbeta med persistens och relationer mellan användare,
-                fordon och bokningar.
-            </li>
 
             <li>
-                <strong>Autentisering och behörighet</strong><br>
+
+                <strong>
+                    Databashantering
+                </strong>
+
+                <br>
+
+                Att arbeta med persistens och relationer mellan
+                användare, fordon och bokningar.
+
+            </li>
+
+
+            <li>
+
+                <strong>
+                    Autentisering och behörighet
+                </strong>
+
+                <br>
+
                 Att skilja mellan olika användarroller och skydda
                 administrativa funktioner.
+
             </li>
 
-            <li>
-                <strong>Frontend och backend</strong><br>
-                Att koppla ihop användargränssnittet med backendlogik och
-                skapa ett sammanhängande system.
-            </li>
 
             <li>
-                <strong>CRUD och systemdesign</strong><br>
-                Att implementera funktioner för att skapa, läsa, uppdatera
-                och ta bort data.
+
+                <strong>
+                    Frontend och backend
+                </strong>
+
+                <br>
+
+                Att koppla ihop användargränssnittet med backendlogik
+                och skapa ett sammanhängande system.
+
+            </li>
+
+
+            <li>
+
+                <strong>
+                    CRUD och systemdesign
+                </strong>
+
+                <br>
+
+                Att implementera funktioner för att skapa, läsa,
+                uppdatera och ta bort data.
+
             </li>
 
         </ul>
@@ -387,21 +755,29 @@
     </section>
 
 
-    <!-- LINKS -->
+    <!-- =========================================================
+         PROJEKTLÄNKAR
+         ========================================================= -->
+
     <section id="contact">
 
-        <h2>Projektlänkar</h2>
+        <h2>
+            Projektlänkar
+        </h2>
 
         <p>
             Se projektet och övriga delar av min portfolio på GitHub.
         </p>
 
-        <div class="buttons" style="justify-content:center;">
+        <div
+            class="buttons"
+            style="justify-content:center;"
+        >
 
             <a
                 href="https://github.com/janetezv"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 class="button primary"
             >
                 GitHub
@@ -422,9 +798,11 @@
 
 
 <footer>
+
     <p>
         © 2026 Johan Hölbling
     </p>
+
 </footer>
 
 </body>
