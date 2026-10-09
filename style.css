@@ -652,3 +652,50 @@ footer{
     }
 
 }
+
+
+/* ==========================================================================
+   Hover effects: no movement, brightness only
+   ========================================================================== */
+
+/* Project cards stay in place */
+.card,
+.project-feature {
+    transition: filter 0.2s ease;
+}
+
+.card:hover,
+.project-feature:hover {
+    transform: none;
+    filter: brightness(1.08);
+}
+
+/* Project images stay in place */
+.project-image,
+.card img {
+    transition: filter 0.2s ease;
+}
+
+.project-image:hover,
+.card img:hover {
+    transform: none;
+    filter: brightness(1.05);
+}
+
+/* Buttons stay in place; only their brightness changes */
+.button,
+.project-links a {
+    transition: filter 0.2s ease;
+}
+
+.button:hover,
+.project-links a:hover {
+    transform: none;
+    filter: brightness(1.12);
+}
+
+/* Prevent leftover hover animations inside cards */
+.card:hover *,
+.project-feature:hover * {
+    transform: none;
+}
