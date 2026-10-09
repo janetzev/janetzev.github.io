@@ -58,4 +58,3 @@
     previousFocus?.focus();
   });
 })();
-
