@@ -254,19 +254,11 @@ section>h2{
     background:linear-gradient(90deg,#38bdf8,#2563eb);
 }
 
-.card:hover{
-    transform:translateY(-8px);
-}
-
 .card img{
     height:230px;
     width:100%;
     object-fit:cover;
     transition:.4s;
-}
-
-.card:hover img{
-    transform:scale(1.05);
 }
 
 .card-content{
